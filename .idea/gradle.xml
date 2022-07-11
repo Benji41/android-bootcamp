@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/kotlin_basics_1" />
             <option value="$PROJECT_DIR$/people_counter" />
           </set>
         </option>

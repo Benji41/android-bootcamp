@@ -24,8 +24,6 @@ L
 .idea/codeStyles/Project.xml,6\e\6ecd6000a7b6f4a2884412ff19f74193ed089648
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 T
 $.idea/codeStyles/codeStyleConfig.xml,d\d\dd7b3350c29c49497756c7f32c69a3bed18b1cba
 F
@@ -46,3 +44,5 @@ e
 5app/src/main/java/noe/basic/first_app/MainActivity.kt,0\b\0b3ccea346f918040ecb945d3eed3113e391aa7d
 [
 +people_counter/src/main/AndroidManifest.xml,7\8\784a055fcb1e260acd866d9a9c8159ec8a858716
+o
+?kotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/xd.java,e\c\ec0bafaae2b93dc2a23e640924dd93d3169c4322

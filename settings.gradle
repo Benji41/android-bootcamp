@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "first_app"
 include ':app'
 include ':people_counter'
+include ':kotlin_basics_1'
