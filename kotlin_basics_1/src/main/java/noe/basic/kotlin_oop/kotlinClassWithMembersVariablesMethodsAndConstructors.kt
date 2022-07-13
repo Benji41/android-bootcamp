@@ -21,7 +21,6 @@ class completePerson(firstName:String="ningun nombre"){
     //necesita retornar un objeto creado con el constructor principal
     constructor(age:Int):this(){
         println(age)
-        //no se puede inicializar dentro de este constructor
     }
     constructor(firstName: String,age:Int):this(firstName){
         this.age = age

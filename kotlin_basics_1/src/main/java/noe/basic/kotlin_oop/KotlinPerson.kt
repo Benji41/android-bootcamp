@@ -16,6 +16,7 @@ class properPerson(firstName:String="ningun nombre",lastName: String="ningun ape
     private var job: String? = null
 
     init {
+        //el set es permitido porque funciona dentro de la clase
         this.firstName = firstName
         this.lastName = lastName
         this.age = age
@@ -29,11 +30,12 @@ class properPerson(firstName:String="ningun nombre",lastName: String="ningun ape
         hobby: String = "nigun hobby",
         job: String = "sin jale"
     ) : this(firstName, lastName, age) {
+        //el set es permitido porque funciona dentro de la clase
         this.hobby = hobby
         this.job = job
     }
 
-    //create custom getter and setter, aplica si no tiene lateinit
+    //create custom getter and setter, aplica si no tiene lateinit y si no tiene el modificador de acceso privado
    var country: String = "Mexico"
         get() = field.lowercase()
         set(value) {
@@ -43,5 +45,4 @@ class properPerson(firstName:String="ningun nombre",lastName: String="ningun ape
     override fun toString(): String {
         return "properPerson(firstName='$firstName', lastName='$lastName', age=$age, hobby='${hobby.let { this.hobby }}', job='${job.let { this.job }}', country='$country')"
     }
-
 }
