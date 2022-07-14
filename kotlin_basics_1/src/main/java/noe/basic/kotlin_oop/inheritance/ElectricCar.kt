@@ -1,26 +1,47 @@
 package noe.basic.kotlin_oop.inheritance
 
-class ElectricCar(tireNumber :Int?, autonomy : Float=0.0F, seat:Int?, weight:Float, capacity:Float,brand:String,quality :String,battery:Float,transmision:String):
-    Car(tireNumber,"electric charge",autonomy,seat,weight,capacity,brand,quality,transmision) {
-    var battery:Float
+class ElectricCar(
+    tireNumber: Int?,
+    autonomy: Float = 0.0F,
+    seat: Int?,
+    weight: Float,
+    capacity: Float,
+    brand: String,
+    quality: String,
+    battery: Float,
+    transmision: String,
+    override var maxSpeed: Float
+) :
+    Car(
+        tireNumber,
+        "electric charge",
+        autonomy,
+        seat,
+        weight,
+        capacity,
+        brand,
+        quality,
+        transmision,
+        maxSpeed
+    ) {
+    var battery: Float
     override var dueño: String = ""
-        set(value) {
-            field = value
-        }
+
     init {
         this.battery = battery
         this.dueño = "Noe"
     }
 
     override fun drive(): String {
-        return "me duermo xd"
+        return "es tesla se mueve solo"
     }
 
-    override fun fillEnergy(): String {
-        return "lo conecto al enchufe de mi casa"
+    override fun charge(): String {
+        return "echandole pura cfe"
     }
 
     override fun toString(): String {
-        return super.toString()+"ElectricCar(battery=$battery, dueño='$dueño')"
+        return "ElectricCar(maxSpeed=$maxSpeed, battery=$battery, dueño='$dueño', tire number= ${this.tireNumber} autonomy=${this.autonomy} seat=$seatsNumber weight= $weight , capacity=$capacity, brand= $brand, quality=$quality)"
     }
+
 }
