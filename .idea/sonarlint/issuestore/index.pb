@@ -80,8 +80,6 @@ Lkotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/kotlinIfStatement.kt,5
 Qkotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/KotlinIfAsAnExpression.kt,8\c\8c357b9a79d45affa0a61d3f97591b1129decc0e
 ƒ
 Skotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/KotlinHandlingNullsPart3.kt,1\8\18182662d96dedb5f9a6fea3a26bb8895c165b8a
-ƒ
-Skotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/KotlinHandlingNullsPart2.kt,d\6\d6a5359a7c4ee33d1bdf9a679d98b28b7c8e5cb6
 ~
 Nkotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/KotlinHandlingNulls.kt,5\4\54bf53f8a280a40c7d976e14f276271c95504030
 z

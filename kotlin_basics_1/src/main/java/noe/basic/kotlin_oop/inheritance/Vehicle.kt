@@ -10,7 +10,7 @@ open class Vehicle(
     weight: Float,
     capacity: Float,
     override var maxSpeed: Float
-) : Functions {
+) : Functions,Functions2 {
     open var dueño: String = "yo"
     var tireNumber: Int?
     var medium: String = ""

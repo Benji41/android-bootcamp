@@ -4,5 +4,7 @@ interface Functions {
     var maxSpeed: Float
     fun charge(): String
     fun drive(): String
-    fun drive(maxSpeed:Float): String
+    fun drive(maxSpeed:Float): String{
+        return "hola"
+    }
 }
