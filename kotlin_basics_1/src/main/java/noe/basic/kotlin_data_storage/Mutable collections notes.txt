@@ -1,0 +1,23 @@
+theres two type of collections
+
+ -single class-{
+    *Int -> intArray
+    *Boolean -> booleanArray
+    *Float -> floatArray
+    *Long -> longArray
+    *Byte -> byteArray
+    *Short -> shortArray
+    *Double -> doubleArray
+               }
+  *as you notice theres no StringArray*
+
+ -multiple class
+    here comes array of
+
+    *store strings -> arrayOf<String>
+
+    *store any user class created -> arrayOf<Person>
+
+    *store multiple type of classes -> arrayOf(1,2"noe",Person("noe","reynoso",23))
+
+

@@ -18,5 +18,5 @@ fun main(){
     //have to be sure the nullable variable is not storing a null value, otherwise the app will broke
     //exp
     val nameFromAPI3 = consumedData!!
-    println(nameFromAPI3)
+    //println(nameFromAPI3)
 }

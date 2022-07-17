@@ -50,10 +50,6 @@ R
 "kotlin_basics_1/proguard-rules.pro,6\c\6cf24e08ed891753f87c88be7bbce5d2c33a7c48
 J
 kotlin_basics_1/.gitignore,8\3\838583f6be0e927500cbe0440e6577214fa79af5
-L
-kotlin_basics_1/build.gradle,7\2\72fad6fbe8cc177bfb716c118f640e30a9c3c4ed
-\
-,kotlin_basics_1/src/main/AndroidManifest.xml,c\c\cc7d74c119bde0e62117ead280e618e608e57358
 â
 Ykotlin_basics_1/src/androidTest/java/noe/basic/kotlin_basics_1/ExampleInstrumentedTest.kt,8\7\8791335089ec843ecb47faa0abe5f4470e01d006
 z
@@ -102,3 +98,15 @@ Hkotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/KotlinNumbers.kt,c\9\c
 Zkotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/KotlinBooleanCharacterAndString.kt,b\3\b313f04dd1f64a9c77ca546d6340a817ae73e68e
 o
 ?kotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/xd.java,e\c\ec0bafaae2b93dc2a23e640924dd93d3169c4322
+ç
+]kotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/KontlinControlFlow/KotlinFunctions.kt,0\6\06db399655bf4a9d4054d09ee8cbdb0c3ff6b807
+è
+_kotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/KontlinControlFlow/kotlinIfStatement.kt,a\0\a011de87a5ab8607375f883ff146bfaeb76ed4c7
+à
+Xkotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/KontlinControlFlow/KotlinWhen.kt,b\6\b6a0e5227f5c42bceb1bb0a6b77a9a4204b07b2b
+ñ
+fkotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/KontlinControlFlow/KotlinWhenAsAnExpression.kt,3\5\35b49491cf66808e9fd66b12fb76f31e39eb1f7b
+ì
+ckotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/KotlinNullHandling/KotlinNullHandlingPT1.kt,4\6\46fd8203848f358037f6ddbec9c6c04e6859da17
+è
+_kotlin_basics_1/src/main/java/noe/basic/kotlin_basics_1/Kotlin_typecasting/KotlinTypeCasting.kt,1\e\1e003dc60f570d51920f3da5b99dc85ae3924909

@@ -1,0 +1,6 @@
+Same functionality as te immutable collections but with mutable values stored
+
+
+mutable list -> ArrayList, arrayListOf, mutableListOf
+mutable set -> mutableSetOf, hashSetOf
+mutable map -> HashMap, HashMapOf, mutableMapOf

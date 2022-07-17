@@ -1,0 +1,5 @@
+these collections are data structures whose values cant be written, only readable
+
+lists - listOf  -> contains a lot of methods to facility the use of its values, its size can be increase
+sets - setOf -> no duplicate values can be stored
+map - mapOf -> key - value
