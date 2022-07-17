@@ -18,6 +18,7 @@ fun main (){
     val countryRankingMutable = mutableMapOf<String,Int>(
         "Mexico" to 1, "China" to 1,
     )
+    //TODO he aqui
     countryRankingMutable["China"]=2
     countryRankingMutable.put("Brazil",3)
 
