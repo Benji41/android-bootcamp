@@ -1,14 +1,18 @@
 package noe.basic.kotlin_oop
 
-fun main(){
-    var persona =properPerson()
+fun main() {
+    var persona = properPerson()
     println(persona.toString())
-    var persona2 = properPerson("Noe","Reynoso",23,"conducir","aqui mero")
+    var persona2 = properPerson("Noe", "Reynoso", 23, "conducir", "aqui mero")
     println(persona2.toString())
 }
 
 //TODO lateinit, access modifiers, getter and setter
-class properPerson(firstName:String="ningun nombre",lastName: String="ningun apellido",age:Int=-1){
+class properPerson(
+    firstName: String = "ningun nombre",
+    lastName: String = "ningun apellido",
+    age: Int = -1
+) {
     private var firstName: String
     private var lastName: String
     private var age: Int = -1
@@ -36,7 +40,7 @@ class properPerson(firstName:String="ningun nombre",lastName: String="ningun ape
     }
 
     //create custom getter and setter, aplica si no tiene lateinit y si no tiene el modificador de acceso privado
-   var country: String = "Mexico"
+    var country: String = "Mexico"
         get() = field.lowercase()
         set(value) {
             field = "$value$"

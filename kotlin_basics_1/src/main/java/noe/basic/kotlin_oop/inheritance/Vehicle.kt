@@ -10,7 +10,7 @@ open class Vehicle(
     weight: Float,
     capacity: Float,
     override var maxSpeed: Float
-) : Functions,Functions2 {
+) : Functions, Functions2 {
     open var dueño: String = "yo"
     var tireNumber: Int?
     var medium: String = ""
@@ -38,9 +38,9 @@ open class Vehicle(
         return "con las manoplas"
     }
 
-   override fun drive(speed:Float): String {
-       if(speed > this.maxSpeed) return "andas en freguisa morro"
-       return ""
+    override fun drive(speed: Float): String {
+        if (speed > this.maxSpeed) return "andas en freguisa morro"
+        return ""
     }
 
 }

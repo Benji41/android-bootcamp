@@ -1,6 +1,6 @@
 package noe.basic.kotlin_basics_loops
 
-fun main(){
+fun main() {
     var x = 0
     while (x < 10) {
         if (x == 8) {
